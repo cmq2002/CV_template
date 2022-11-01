@@ -1,0 +1,30 @@
+////// Working as a team /////////
+
+$ cd (to the wanted folder)
+$ git clone + SSH  -> clone repo to local machine
+$ cd (to the current folder that contains the project)
+$ git pull 
+$ git checkout <name_of_branch> (for changing branch)
+
+// Editing
+$ git add -A
+$ git commit -m "message"
+$ git status
+$ git push
+
+/////// Working alone ///////
+- create new repository
+
+- change directory
+
+- git init -b main
+  git add .
+  git commit -m "message"
+
+- git remote add origin <URL>
+  git remote -v
+
+- git fetch origin main:tmp
+  git rebase tmp
+  git push origin HEAD:main
+  git branch -D tmp
