@@ -10,7 +10,11 @@
 \newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
 
 % Create education heading. Parameters: Name, degree, location, when
+<<<<<<< HEAD
 \newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+=======
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3  #4}\\
+>>>>>>> 47f870c (New Version)
 \descript{#2}\fakeNewLine}
 
 % Create project heading. Parameters: Name, link, Tech stack
@@ -21,14 +25,29 @@
 \descript{#3 | #4}\\}
 
 % Parameters: courses
+<<<<<<< HEAD
 \newcommand{\courseWork}[1]{\textbf{Related Coursework: } #1}
+=======
+\newcommand{\courseWork}[1]{\textbf{Relevant Courses: } #1}
+
+% Parameters: courses
+\newcommand{\onlineWork}[1]{\textbf{Harvard Online Courses: } #1}
+>>>>>>> 47f870c (New Version)
 
 % Parameters: courses
 \newcommand{\teacherAssistant}[1]{\textbf{Teacher Assistant (TA):} #1}
 
+<<<<<<< HEAD
 %Awards
 \newcommand{\awardHeading}[3]{\Project{#1}{#2}
 \descript{#3}\\}
+=======
+%GPA
+\newcommand{\gpa}[1]{\textbf{GPA:} #1}
+
+%Awards
+\newcommand{\awardHeading}[1]{\textbf{Academic Awards:} #1 \\}
+>>>>>>> 47f870c (New Version)
 
 %Objective
 \newcommand{\seeking}[1]{\textbf{Applications for Internship in: } #1}
@@ -44,11 +63,20 @@
 % vs how you want it to show up. If it's the same you can just replace "\yourWebsiteLink" with "yourWebsite"
 \newcommand{\yourWebsiteLink}{https://website.com}
 \newcommand{\yourEmail}{quang.cao2205@gmail.com}
+<<<<<<< HEAD
 \newcommand{\yourPhone}{0857 333 159}
+=======
+\newcommand{\yourPhone}{+84 857 333 159}
+\newcommand{\yourLocation}{HCM City, Vietnam}
+>>>>>>> 47f870c (New Version)
 \newcommand{\githubUserName}{cmq2002}
 \newcommand{\linkedInUserName}{quang2002}
 
 % An alternate profile section 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 47f870c (New Version)
 % \alignProfileTable
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 %     \ralewayBold{\href{\yourWebsiteLink}{\Large \yourName}} & 
@@ -57,33 +85,66 @@
 %     \href{https://github.com/\githubUserName}{GitHub://\githubUserName} & 
 %     Mobile : \yourPhone
 %     \\
+<<<<<<< HEAD
 %     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & Website : \href{\yourWebsiteLink}{\yourWebsite}
+=======
+%     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & HCM City, Viet Nam
+%     % Website : \href{\yourWebsiteLink}{\yourWebsite}
+>>>>>>> 47f870c (New Version)
 %     \\
 % \end{tabular*}
 
 \begin{center}
     \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+<<<<<<< HEAD
     \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \yourPhone $|$ 
     \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
     \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}} 
+=======
+    \small \textbf{\yourPhone} $|$ \textbf{\yourLocation} $|$
+    \href{mailto:\yourEmail}{\underline{\textbf{\yourEmail}}} $|$
+    \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{\textbf{linkedIn/\linkedInUserName}}} $|$
+    \href{https://github.com/\githubUserName}{\underline{\textbf{github/\githubUserName}}} 
+>>>>>>> 47f870c (New Version)
     % $|$ \href{\yourWebsiteLink}{\underline{\yourWebsite}}
 \end{center}
 
 %--------------------------------------------------------------
 %     Objectives
 %--------------------------------------------------------------
+<<<<<<< HEAD
 \section{Objectives}
 \seeking{Hardware Design/Development, C/C++ Programming for Hardware, Embedded System Design/Development, LSI Logic Design, IoTs and Network Security}
 \sectionsep
+=======
+\begin{center}
+    \large
+    \seeking{Hardware Design/Development, C/C++ Programming for Hardware, Embedded System Design/Development, LSI Logic Design, IoTs and Network Security}
+\end{center}
+>>>>>>> 47f870c (New Version)
 
 %--------------------------------------------------------------
 %     Education
 %--------------------------------------------------------------
 \section{Education}
 % Put school first and degree second if your school is reputable
+<<<<<<< HEAD
 \educationHeading{HCM City University of Technology}{High Quality Program - Bachelor of Computer Engineering (GPA:9.03/10)}{Expected Graduation}{Oct 2024}
 
 \courseWork{Data Structures and Algorithms, Operating Systems, Computer Architecture, Computer Networks, Electrical Electronic Circuits, Microprocessors-Microcontrollers, Logic Design with Verilog HDL, LSI Logic Design, Internet of Things Application Development}
+=======
+\educationHeading{HO CHI MINH CITY UNIVERSITY OF TECHNOLOGY (HCMUT)}{High Quality Program - Bachelor of Computer Engineering}{}{Oct 2020 - Present}
+
+\gpa{9.03/10}
+
+\courseWork{Data Structures and Algorithms, Operating Systems, Computer Architecture, Computer Networks, Electrical Electronic Circuits, Microprocessors-Microcontrollers, Logic Design with Verilog HDL, LSI Logic Design, Internet of Things Application Development.}
+
+\onlineWork{Web Programming with Python and JavaScript}
+
+\awardHeading{}
+\hspace{0.5cm}
+\href{https://drive.google.com/drive/u/1/folders/1DPBfQb7LGzu08zekDbS6NrmggQCySVqJ}{\underline{Academic Incentive Scholarship - Semester 1, Academic Year 2020-2021}}
+>>>>>>> 47f870c (New Version)
 \sectionsep
 
 
@@ -92,6 +153,7 @@
 %--------------------------------------------------------------
 \section{Technical Skills}
 % \begin{skillList}
+<<<<<<< HEAD
 %     \doubleItem{Programming Languages:}{Assembly, C/C++, Python} %
 %     {Operating System:}{Windows, Linux(Ubuntu)}
 %     \\
@@ -117,6 +179,33 @@
 %     Experience
 %--------------------------------------------------------------
 \section{Work Experience}
+=======
+%     \singleItem{Programming Languages:}{Assembly, C/C++, Python} 
+%     \\
+%     \singleItem{Operating System:}{Windows, Linux(Ubuntu)}
+%     \\
+%     \singleItem{Tools:}{Git, \LaTeX, Quartus, Modelsim, PSpice for TI, Altium Designer, Proteus}
+% \end{skillList}
+
+\begin{skillList}
+    \doubleItem{Languages:}{Assembly, C, C++, Python}%
+    {Web Development:}{HTML, CSS, JavaScript}
+    \\
+    \doubleItem{Framework:}{Django}
+    {Database:}{SQL}
+    \\
+    \doubleItem{Tools:}{Git, \LaTeX, Quartus, Modelsim, PSpice for TI, Altium Designer, Proteus}{}{}%
+\end{skillList}
+\sectionsep
+
+\section{Soft Skills}
+Communication, Patience, Problem-Solving, TeamWork, Adaptability, Time Management.
+\sectionsep
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+% \section{Work Experience}
+>>>>>>> 47f870c (New Version)
 % \resumeHeading{Amazon}{Software Development Engineer Intern}{Toronto, ON}{May 2020 – Aug 2020}
 % \begin{bullets}
 %     \item Designed and implemented a dashboard using \textbf{React} and \textbf{TypeScript} to visualize data stored in \textbf{DynamoDB}, decreasing time to understand delivery driver work sessions by over 10 times.
@@ -140,12 +229,19 @@
 %     \item Created \textbf{UML} diagrams and documented where features were implemented, to make the codebase more maintainable.
 % \end{bullets}
 % \sectionsep
+<<<<<<< HEAD
 Currently, I have not applied for any firms yet.
+=======
+>>>>>>> 47f870c (New Version)
 
 %--------------------------------------------------------------
 %     Projects
 %--------------------------------------------------------------
+<<<<<<< HEAD
 \section{Projects}
+=======
+\section{Course Projects}
+>>>>>>> 47f870c (New Version)
 
 % \projectHeading{Automated Spear-Phisher}{https://github.com/Aarif123456/Fb-Twitter-gui}{Python, PySpark, Selenium, Apache, NLP, Big Data}
 % A security research tool to send targeted spam messages on either Facebook or Twitter. The program analyzes the feed of its target to increase the effectiveness of the messages.\\
@@ -175,11 +271,18 @@ Currently, I have not applied for any firms yet.
 % \sectionsep
 \projectHeadingWithDate{Smart Air Purifier System for Household Usage}{}{Python}{Sep - Dec 2022}
 \begin{bullets}
+<<<<<<< HEAD
 \item Description: The air purifier with abilities to detect temperature, humidity, PM2.5 dust and harmful gases concentration supported with a mobile application for supervisor and control.
 \item Field: Multidisciplinary Project - Software Engineering Major
 \item Role: Sensor System Implementation and IoTs Gateway Development
 \end{bullets}
 \sectionsep
+=======
+\item Description: Implementation of the air purifier with abilities to detect temperature, humidity, PM2.5 dust and harmful gases concentration supporting with a mobile application for supervisor and control.
+\item Field: Multidisciplinary Project - Software Engineering Major
+\item Role: Sensor System Implementation and IoTs Gateway Development
+\end{bullets}
+>>>>>>> 47f870c (New Version)
 
 \projectHeadingWithDate{Expansion Shield for STM Nucleo}{https://github.com/cmq2002/Expansion_shield_STMNucleo.git}{C}{Sep - Dec 2022}
 \begin{bullets}
@@ -187,7 +290,10 @@ Currently, I have not applied for any firms yet.
 \item Field: Logic Design Project
 \item Role: Collaborative Developer
 \end{bullets}
+<<<<<<< HEAD
 \sectionsep
+=======
+>>>>>>> 47f870c (New Version)
 
 \projectHeadingWithDate{Simple Traffic Lights with Modes}{https://github.com/cmq2002/Simple_Traffic_Lights_with_Modes.git}{C}{Oct 2022}
 \begin{bullets}
@@ -195,7 +301,10 @@ Currently, I have not applied for any firms yet.
 \item Field: Microprocessors-Microcontrollers Project
 \item Role: Developer
 \end{bullets}
+<<<<<<< HEAD
 \sectionsep
+=======
+>>>>>>> 47f870c (New Version)
 
 \projectHeadingWithDate{Design and Layout a circuit with Altium Designer}{https://github.com/cmq2002/EEC_Final_Project.git}{Alitum Designer}{Dec 2021 - Jan 2022}
 \begin{bullets}
@@ -205,9 +314,17 @@ Currently, I have not applied for any firms yet.
 \end{bullets}
 \sectionsep
 
+<<<<<<< HEAD
 \section{Awards}
 \awardHeading{Academic Incentive Scholarship}{https://drive.google.com/drive/u/1/folders/1DPBfQb7LGzu08zekDbS6NrmggQCySVqJ}{Semester 1, Academic Year 2020-2021}
 \sectionsep
 
+=======
+\section{Languages}
+\begin{skillList}
+     \doubleItem{Vietnamese:}{Native speaker}{English:}{IELTS 7.0 Certificate - Achieved in 2019}
+\end{skillList}
+% \sectionsep
+>>>>>>> 47f870c (New Version)
 
 \end{document}
